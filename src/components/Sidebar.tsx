@@ -74,7 +74,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
       )}
 
       {/* Questions Matrix Palette */}
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 12, flex: 1 }}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 12, flex: 1, minHeight: 0, overflow: 'hidden' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <span style={{ fontSize: 13, fontWeight: 700, textTransform: 'uppercase', color: 'var(--text-muted)', letterSpacing: 0.5 }}>
             Bảng câu hỏi ({questions.length})
